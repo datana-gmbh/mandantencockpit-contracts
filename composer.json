@@ -19,8 +19,8 @@
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.2",
+        "ergebnis/php-cs-fixer-config": "^5",
         "ergebnis/test-util": "^1.5",
-        "friendsofphp/php-cs-fixer": "^2.19",
         "phpstan/extension-installer": "^1.0",
         "phpstan/phpstan": "^0.12.14",
         "phpstan/phpstan-webmozart-assert": "^0.12.2",
