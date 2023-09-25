@@ -4,10 +4,8 @@ declare(strict_types=1);
 
 namespace Datana\Mandantencockpit\Contracts\Bridge\ApiPlatform;
 
-use ApiPlatform\Core\Identifier\CompositeIdentifierParser;
-
 /**
- * @see CompositeIdentifierParser::stringify()
+ * @see \ApiPlatform\Core\Identifier\CompositeIdentifierParser::stringify()
  *
  * Currently there is no way to define a normalizer for generating the IRI
  */
