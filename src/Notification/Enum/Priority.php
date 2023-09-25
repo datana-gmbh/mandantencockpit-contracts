@@ -11,17 +11,16 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Datana\Mandantencockpit\Api\Tests\Unit;
+namespace Datana\Mandantencockpit\Contracts\Notification\Enum;
 
-use PHPUnit\Framework\TestCase;
+use OskarStark\Enum\Trait\Comparable;
+use OskarStark\Enum\Trait\ToArray;
 
-final class UnitDummyTest extends TestCase
+enum Priority: string
 {
-    /**
-     * @test
-     */
-    public function dummy(): void
-    {
-        self::assertTrue(true);
-    }
+    use Comparable;
+    use ToArray;
+
+    case HIGH = 'high';
+    case NORMAL = 'normal';
 }
