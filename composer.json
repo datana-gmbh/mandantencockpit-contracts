@@ -1,7 +1,7 @@
 {
-    "name": "datana-gmbh/mandantencockpit-api",
+    "name": "datana-gmbh/mandantencockpit-contracts",
     "type": "library",
-    "description": "API for Mandantencockpit",
+    "description": "Contracts for Mandantencockpit",
     "license": "MIT",
     "authors": [
         {
@@ -36,12 +36,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Datana\\Mandantencockpit\\Api\\": "src/"
+            "Datana\\Mandantencockpit\\Contracts\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Datana\\Mandantencockpit\\Api\\Tests\\": "tests/"
+            "Datana\\Mandantencockpit\\Contracts\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable",
