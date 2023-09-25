@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.2",
         "oskarstark/trimmed-non-empty-string": "^1.0.0",
         "psr/log": "^1.1 || ^2.0 || ^3.0",
         "symfony/http-client": "^4.4 || ^5.1 || ^6.0",
@@ -28,7 +28,11 @@
         "thecodingmachine/phpstan-safe-rule": "^1.0 || ^2.0"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true,
+            "phpstan/extension-installer": true
+        }
     },
     "autoload": {
         "psr-4": {
