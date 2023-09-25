@@ -9,7 +9,6 @@ use OskarStark\Value\TrimmedNonEmptyString;
 
 final class TargetId implements \Stringable, IriUsableInterface
 {
-
     private function __construct(
         private string $value,
     ) {
