@@ -54,10 +54,10 @@
             "vendor/bin/php-cs-fixer fix --diff --dry-run --verbose"
         ],
         "phpstan": [
-            "@php -d memory_limit=-1 vendor/bin/phpstan analyse --configuration phpstan.neon --no-progress"
+            "@php -d memory_limit=-1 vendor/bin/phpstan analyse --configuration phpstan.neon.dist --no-progress"
         ],
         "phpstan-baseline": [
-            "@php -d memory_limit=-1 vendor/bin/phpstan analyse --configuration phpstan.neon --generate-baseline=phpstan-baseline.neon --no-progress"
+            "@php -d memory_limit=-1 vendor/bin/phpstan analyse --configuration phpstan.neon.dist --generate-baseline=phpstan-baseline.neon --no-progress"
         ],
         "test": [
             "@php -d memory_limit=-1 vendor/bin/phpunit"
