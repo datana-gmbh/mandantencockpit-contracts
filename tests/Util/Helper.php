@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Datana\Mandantencockpit\Contracts\Tests\Util;
 
-use Datana\Mandantencockpit\Contracts\Tests\Util\Faker\Provider\TargetIdProvider;
+use Datana\Mandantencockpit\Contracts\Bridge\Faker\Provider\TargetIdProvider;
 use Faker\Factory;
 use Faker\Generator;
 

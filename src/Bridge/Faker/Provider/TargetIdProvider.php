@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Datana\Mandantencockpit\Contracts\Tests\Util\Faker\Provider;
+namespace Datana\Mandantencockpit\Contracts\Bridge\Faker\Provider;
 
 use Datana\Mandantencockpit\Contracts\Notification\Value\TargetId;
 use Faker\Provider\Base as BaseProvider;
